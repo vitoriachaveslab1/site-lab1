@@ -21,7 +21,7 @@ export const pricedeta: {
   {
     title: "Mais economia",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: "url('/images/icons/icon-melhoria.svg')",
     background: "bg-warning bg-opacity-0",
     description: "reduza custos de gestão em todas as áreas, do financeiro ao RH.",
     mark: "",
