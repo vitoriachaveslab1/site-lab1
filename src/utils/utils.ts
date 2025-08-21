@@ -1,7 +1,8 @@
 const getImagePrefix = () => {
-  return process.env.NEXT_PUBLIC_NODE_ENV === "production"
-    ? "/LAB1/" 
-    : "";
+  if (typeof window !== "undefined" && window.location.pathname.includes("/LAB1")) {
+    return "/LAB1/";
+  }
+  return "/";
 };
 
 export { getImagePrefix };
