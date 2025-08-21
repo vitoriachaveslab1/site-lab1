@@ -169,8 +169,8 @@ const config: Config = {
         ],
       },
       backgroundImage: {
-        "start": "url('/images/work/bg-start.png')",
-        "perk": "url('/images/perks/perk-bg.png')",
+        "start": "url('/images/work/linhas.png')",
+        "perk": "url('/images/perks/linhas.png')",
       },
       blur: {
         220: '220px',
