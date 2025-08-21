@@ -1,10 +1,11 @@
-import { title } from "process";
 
-export const footerlabels: { label: string; herf: string }[] = [
-  { label: "Terms", herf: "#" },
-  { label: "Disclosures", herf: "#" },
-  { label: "Disclosures", herf: "#" },
-  { label: "Latest News", herf: "#" },
+
+export const footerlabels: { label: string; href: string }[] = [
+
+  { label: "Terms", href: "#" },
+  { label: "Disclosures", href: "#" },
+  { label: "Disclosures", href: "#" },
+  { label: "Latest News", href: "#" },
 ];
 
 export const pricedeta: {
@@ -21,7 +22,7 @@ export const pricedeta: {
   {
     title: "Mais economia",
     short: "",
-    icon: "url('/images/icons/icon-melhoria.svg')",
+    icon: "/images/icons/icon-melhoria.svg",
     background: "bg-warning bg-opacity-0",
     description: "reduza custos de gestão em todas as áreas, do financeiro ao RH.",
     mark: "",
