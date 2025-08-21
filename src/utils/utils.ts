@@ -1,8 +1,7 @@
 const getImagePrefix = () => {
-  return process.env.NODE_ENV === "production"
-    ? "/Crypgo/"
+  return process.env.NEXT_PUBLIC_NODE_ENV === "production"
+    ? "/LAB1/" 
     : "";
 };
 
 export { getImagePrefix };
- 
