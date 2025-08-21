@@ -11,7 +11,7 @@ export const footerlabels: { label: string; href: string }[] = [
 export const pricedeta: {
   title: string;
   short: string;
-  icon: string;
+  icon: JSX.Element;
   background: string;
   description: string;
   mark: string;
@@ -22,7 +22,7 @@ export const pricedeta: {
   {
     title: "Mais economia",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "reduza custos de gestão em todas as áreas, do financeiro ao RH.",
     mark: "",
