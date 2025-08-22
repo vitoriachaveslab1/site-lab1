@@ -134,7 +134,7 @@ export const timelineData: {
   position: string;
 }[] = [
   {
-    icon: "/images/timeline/icon-planning.svg",
+    icon: "/images/icon-melhoria.svg",
     title: "Consultoria SAP B1",
     text: "Implementação estratégica e personalizada do sistema SAP Business One.",
     position: "md:top-0 md:left-0",
