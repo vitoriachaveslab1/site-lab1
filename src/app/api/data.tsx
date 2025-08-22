@@ -113,7 +113,7 @@ export const perksData: {
   space: string;
 }[] = [
   {
-    icon: "/images/perks/icon-support.svg",
+    icon: "/images/perks/icon-suporte.svg",
     title: "Regiões de Atuação",
     text: "Grande São Paulo, Campinas, Barueri e Sorocaba.",
     space: "lg:mt-8",

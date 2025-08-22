@@ -22,12 +22,12 @@ const Work = () => {
 
   const services = [
     {
-      icon: "/images/icons/icon-consulting.svg",
+      icon: "/images/icons/icon-proposito.svg",
       text: "Propósito",
       caption: "Ajudar empresas a fazerem melhor o que já fazem bem, com SAP.",
     },
     {
-      icon: "/images/icons/icon-blockchain.svg",
+      icon: "/images/icons/icon-visao.svg",
       text: "Visão",
       caption: "Ser referência nacional em consultoria SAP Business One.",
     },
