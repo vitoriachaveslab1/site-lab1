@@ -21,7 +21,7 @@ export const pricedeta: {
   {
     title: "Mais economia",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+    icon: <img src="/images/beneficios/icon-melhoria_1.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Reduza custos de gestão em todas as áreas, do financeiro ao RH.",
     mark: "",
@@ -32,7 +32,7 @@ export const pricedeta: {
   {
     title: "Controle total",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+    icon: <img src="/images/beneficios/icon-melhoria_2.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Visão clara e integrada de toda a empresa, com acesso rápido às informações.",
     mark: "",
@@ -43,7 +43,7 @@ export const pricedeta: {
   {
     title: "Crescimento ágil",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+    icon: <img src="/images/beneficios/icon-melhoria_3.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Insights precisos e interface simples para atingir metas e expandir negócios.",
     mark: "",
@@ -54,7 +54,7 @@ export const pricedeta: {
   {
     title: "Eficiência operacional",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+    icon: <img src="/images/beneficios/icon-melhoria_4.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Reduza retrabalho, elimine tarefas manuais e ganhe mais tempo no dia a dia.",
     mark: "",
@@ -65,7 +65,7 @@ export const pricedeta: {
   {
     title: "Soluções sob medida",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+     icon: <img src="/images/beneficios/icon-melhoria_5.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Add‑Ons personalizados e flexíveis para as necessidades reais do seu negócio.",
     mark: "",
@@ -76,7 +76,7 @@ export const pricedeta: {
   {
     title: "Acompanhamento contínuo",
     short: "",
-    icon: <img src="/images/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
+    icon: <img src="/images/beneficios/icon-melhoria_6.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Suporte especializado durante e após a implantação, com foco em evolução constante.",
     mark: "",
