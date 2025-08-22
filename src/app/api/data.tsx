@@ -1,17 +1,16 @@
-
-
+// FOOTER
 export const footerlabels: { label: string; href: string }[] = [
-
-  { label: "Terms", href: "#" },
-  { label: "Disclosures", href: "#" },
-  { label: "Disclosures", href: "#" },
-  { label: "Latest News", href: "#" },
+  { label: "Termos de uso", href: "#" },
+  { label: "Política de privacidade", href: "#" },
+  { label: "Avisos legais", href: "#" },
+  { label: "Últimas notícias", href: "#" },
 ];
 
+// BENEFÍCIOS
 export const pricedeta: {
   title: string;
   short: string;
-  icon: string;
+  icon: JSX.Element;
   background: string;
   description: string;
   mark: string;
@@ -22,9 +21,9 @@ export const pricedeta: {
   {
     title: "Mais economia",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
-    description: "reduza custos de gestão em todas as áreas, do financeiro ao RH.",
+    description: "Reduza custos de gestão em todas as áreas, do financeiro ao RH.",
     mark: "",
     width: 50,
     height: 5,
@@ -33,7 +32,7 @@ export const pricedeta: {
   {
     title: "Controle total",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Visão clara e integrada de toda a empresa, com acesso rápido às informações.",
     mark: "",
@@ -44,9 +43,9 @@ export const pricedeta: {
   {
     title: "Crescimento ágil",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
-    description: "insights precisos e interface simples para atingir metas e expandir negócios.",
+    description: "Insights precisos e interface simples para atingir metas e expandir negócios.",
     mark: "",
     width: 50,
     height: 5,
@@ -55,7 +54,7 @@ export const pricedeta: {
   {
     title: "Eficiência operacional",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Reduza retrabalho, elimine tarefas manuais e ganhe mais tempo no dia a dia.",
     mark: "",
@@ -66,7 +65,7 @@ export const pricedeta: {
   {
     title: "Soluções sob medida",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Add‑Ons personalizados e flexíveis para as necessidades reais do seu negócio.",
     mark: "",
@@ -77,7 +76,7 @@ export const pricedeta: {
   {
     title: "Acompanhamento contínuo",
     short: "",
-    icon: "/images/icons/icon-melhoria.svg",
+    icon: <img src="/images/icons/icon-melhoria.svg" alt="Ícone" width={40} height={40} />,
     background: "bg-warning bg-opacity-0",
     description: "Suporte especializado durante e após a implantação, com foco em evolução constante.",
     mark: "",
@@ -87,6 +86,7 @@ export const pricedeta: {
   },
 ];
 
+// ADD-ONS
 export const portfolioData: { image: string; title: string; description: string }[] = [
   {
     image: "/images/portfolio/icon-aprovações.svg",
@@ -105,6 +105,7 @@ export const portfolioData: { image: string; title: string; description: string 
   },
 ];
 
+// CONTATO / PERKS
 export const perksData: {
   icon: string;
   title: string;
@@ -114,18 +115,18 @@ export const perksData: {
   {
     icon: "/images/perks/icon-support.svg",
     title: "Regiões de Atuação",
-    text: "Grande São Paulo, Campinas, Barueri e Sorocaba",
+    text: "Grande São Paulo, Campinas, Barueri e Sorocaba.",
     space: "lg:mt-8",
   },
   {
     icon: "/images/perks/icon-academy.svg",
-    title: "Whatsapp",
+    title: "WhatsApp",
     text: "(15) 99690-4882",
     space: "lg:mt-4",
   },
 ];
 
-
+// TIMELINE / SERVIÇOS
 export const timelineData: {
   icon: string;
   title: string;
@@ -152,8 +153,8 @@ export const timelineData: {
   },
   {
     icon: "/images/timeline/icon-support.svg",
-    title: "Consultoria SAP B1",
-    text: "Deploy the product and ensure full support by us",
+    title: "Suporte Especializado",
+    text: "Acompanhamento técnico contínuo e dedicado, garantindo evolução da solução.",
     position: "md:bottom-0 md:right-0",
   },
 ];
