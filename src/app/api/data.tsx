@@ -119,7 +119,7 @@ export const perksData: {
     space: "lg:mt-8",
   },
   {
-    icon: "/images/perks/icon-academy.svg",
+    icon: "/images/perks/icon-whatsapp.svg",
     title: "WhatsApp",
     text: "(15) 99690-4882",
     space: "lg:mt-4",
